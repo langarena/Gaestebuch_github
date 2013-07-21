@@ -35,8 +35,7 @@ $time=$_POST['time'];
 // gastbuch.php for LINUX
 // Version 0.1 (24. 10. 1999)
 // Version 0.2 (12. 01. 2000) - Mit Homepage und Filterung von < und >
-//
-// Bearbeitet von Renate Langsam letzte Aenderung : 5. 11. 2005
+// Version 0.4 (5. 11. 2005)
 // Optionen setzen
 $gastdatei = "gastbuch.htm";
 $logdatei  = "../../../kasumir.htm";
@@ -54,7 +53,7 @@ if (!$_GET['action']=='rechnen') {
 Sie können sich hier in unser Gästebuch eintragen. Bitte füllen Sie dieses Formular aus. 
 Sie müssen nur <b>Ihren Namen</b> und einen <b>Kommentar</b> eintragen. Danke!</font>
 <hr>
-<form action="gastbuch.php4?action=rechnen" method="post">
+<form action="gastbuch.php?action=rechnen" method="post">
 
 <table border="0"> 
 <tr><td><font face ="arial">Ihr Name:</font></td>
